@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Jiazhe Chen
     - name: Date of Birth
-      value: 14th March 1879
+      value: 25th May 1992
     - name: Languages
-      value: English, German
+      value: Chinese, Japanese, English
 
 - title: Education
   type: time_table
@@ -21,12 +21,16 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Master of Economics
+      institution: The University of Tokyo, Tokyo, Japan
+      year: 2019
       description:
         - Description 1.
         - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
 
 - title: Experience
   type: time_table
@@ -64,9 +68,9 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/Pats-Chen/NUMAD22Fa_WordRoyale">Word Royale</a>
+      year: 2022
+      description: An Android Game Application.
 
 - title: Honors and Awards
   type: time_table
