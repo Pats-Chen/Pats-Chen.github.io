@@ -87,7 +87,6 @@
         - Description 2.
 
 - title: Other Interests
-  type: nested_list
+  type: list
   contents:
-    - title: Topic 1.
-    - title: Topic 2.
+    - Hobbies.
