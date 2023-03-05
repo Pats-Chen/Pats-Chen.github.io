@@ -8,10 +8,9 @@ middle_name:
 last_name: Chen
 email: chen.jiazhe@northeastern.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  This is my personal website on Github. It uses a simple, whitespace template for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  This is my personal website on Github.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: website, jekyll  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -94,7 +93,7 @@ spotify_id: # your spotify id
 pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
 instagram_id: # your instagram id
-facebook_id: 100004717262836 # your facebook id
+facebook_id: # my facebook id: 100004717262836
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
