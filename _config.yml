@@ -11,7 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   This is my personal website on Github.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: jiazhechen, blog, computer-science  # add your own keywords or leave empty
+keywords: jiazhechen, computer-science, blog  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -117,7 +117,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 blog_name: Jiazhe Chen # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: Jiazhe Chen's Blog
-permalink: /blog/:year/:title/
+permalink: Pats-Chen.github.io/blog/:year/:title/
 
 # Pagination
 pagination:
