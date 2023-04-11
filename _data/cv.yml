@@ -61,18 +61,18 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2014
-      items: 
-        - Distinguished Undergraduate Thesis Award
-    - year: 2015
-      items: 
-        - Tuition Waiver
-    - year: 2017
-      items: 
-        - Tuition Waiver
     - year: 2021
       items: 
         - Dean's Scholarship
+    - year: 2017
+      items: 
+        - Tuition Waiver
+    - year: 2015
+      items: 
+        - Tuition Waiver
+    - year: 2014
+      items: 
+        - Distinguished Undergraduate Thesis Award
 
 - title: Academic Interests
   type: nested_list
