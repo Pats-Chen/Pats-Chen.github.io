@@ -14,7 +14,7 @@ git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec
 
 {% endhighlight %}
 
-Note that the path should be where Git is installed on your device. After that, the error message listed below should gone.
+Note that the path should be where Git is installed on your device. After that, the error message listed below should gone.  
 
 {% highlight Bash linenos %}
 
@@ -39,3 +39,5 @@ remote: Repository not found.
 fatal: Authentication failed for 'https://github.com/Spring23FSE/finalproject-squirrel.git/'
 
 {% endhighlight %}
+
+Reference link: https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-git  
