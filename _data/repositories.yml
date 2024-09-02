@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Pats-Chen
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Pats-Chen/Pats-Chen.github.io
+  - Pats-Chen/Pats-Chen.github.io
+  - Pats-Chen/Pats-Chen.github.io
+  - Pats-Chen/Pats-Chen.github.io
+  - Pats-Chen/Pats-Chen.github.io
+  - Pats-Chen/Pats-Chen.github.io
+  - Pats-Chen/Pats-Chen.github.io
