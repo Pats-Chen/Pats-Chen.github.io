@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  how to setup vscode
+title:  How to setup vscode
 date:   2023-04-04 13:00:00
 description: a post about how to setup vscode
 tags: vscode coding-environment

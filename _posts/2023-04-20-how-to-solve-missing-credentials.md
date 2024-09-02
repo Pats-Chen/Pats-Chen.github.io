@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  how to solve missing credentials
+title:  How to solve missing credentials
 date:   2023-04-20 04:29:00
 description: a post about how to setup github credentials for WSL2
 tags: vscode coding-environment
