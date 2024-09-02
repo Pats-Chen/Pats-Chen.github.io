@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://pats-chen.github.io//blog//sitemap.xml
+Sitemap: https://pats-chen.github.io//sitemap.xml
