@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. That which doesn't kill you makes you stronger.
+subtitle: That which doesn't kill you makes you stronger.
 
 profile:
   align: right
