@@ -131,8 +131,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Personal Blog # blog_name will be displayed in your blog page
-blog_description: a place for my thoughts # blog_description will be displayed in your blog page
+blog_name: Jiazhe's Blog # blog_name will be displayed in your blog page
+blog_description: A place for my thoughts. # blog_description will be displayed in your blog page
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -296,8 +296,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["vscode", "environment", "python", "c++", "misc"] # these tags will be displayed on the front page of your blog
+display_categories: ["computer-science"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
