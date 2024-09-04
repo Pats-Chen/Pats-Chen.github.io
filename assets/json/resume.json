@@ -48,12 +48,12 @@
         "location": "Boston",
         "url": "https://www.northeastern.edu/",
         "area": "Computer Science",
-        "studyType": "Master",
+        "studyType": "Master of Science",
         "startDate": "2021-09-01",
         "endDate": "2024-12-31",
         "score": "10.0",
         "courses": [
-          "Courses: Web Development, Mobile Application Development, Computer Graphics, Interpreters"
+          "Courses: Web Development, Mobile Application Development"
         ]
       },
       {
@@ -61,7 +61,7 @@
         "location": "Japan",
         "url": "https://www.u-tokyo.ac.jp/en/",
         "area": "Applied Economics",
-        "studyType": "Master",
+        "studyType": "Master of Economics",
         "startDate": "2017-04-01",
         "endDate": "2019-03-31",
         "score": "10.0"
@@ -71,17 +71,17 @@
         "location": "Japan",
         "url": "https://www.hit-u.ac.jp/eng/",
         "area": "Statistical Economics",
-        "studyType": "Master",
+        "studyType": "Master of Economics",
         "startDate": "2015-04-01",
         "endDate": "2017-03-31",
         "score": "10.0"
       },
       {
-        "institution": "East China University of Poli Science & Law",
+        "institution": "East China University of Poli-Science & Law",
         "location": "China",
         "url": "https://www.ecupl.edu.cn/",
         "area": "Japanese Language",
-        "studyType": "Bachelor",
+        "studyType": "Bachelor of Arts",
         "startDate": "2010-09-01",
         "endDate": "2014-07-31",
         "score": "10.0"
@@ -134,7 +134,7 @@
       },
       {
         "name": "Statistics & Data Science",
-        "date": "2020-02-01",
+        "date": "2021-08-31",
         "issuer": "edX",
         "url": "https://credentials.edx.org/credentials/10cce9038a9a4a19a8fdf74f6a402d6e/",
         "icon": "fa-solid fa-clipboard-check"
@@ -162,7 +162,7 @@
       {
         "title": "Award of Distinguished Undergraduate Thesis",
         "date": "2014-07-01",
-        "awarder": "East China University of Poli Science & Law",
+        "awarder": "East China University of Poli-Science & Law",
         "summary": "Award of Distinguished Undergraduate Thesis, 2014."
       }
     ],
