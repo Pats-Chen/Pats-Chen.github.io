@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  How to solve missing credentials
+title:  How to Solve Missing Credentials
 date:   2023-04-20 04:29:00
-description: A post on how to setup GitHub credentials for WSL2
-tags: vscode environment
+description: A post on how to setup github credentials for wsl2
+tags: vs-code environment
 categories: computer-science
 ---
 For Git version < v2.36.1, enter this command:  

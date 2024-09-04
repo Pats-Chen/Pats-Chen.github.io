@@ -296,7 +296,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["vscode", "environment", "python", "c++", "misc"] # these tags will be displayed on the front page of your blog
+display_tags: ["vs-code", "environment", "python", "c++", "misc"] # these tags will be displayed on the front page of your blog
 display_categories: ["computer-science"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
