@@ -8,6 +8,6 @@ children:
   - title: Teaching
     permalink: /teaching/
   - title: divider
-  - title: People
+  - title: Team
     permalink: /people/
 ---

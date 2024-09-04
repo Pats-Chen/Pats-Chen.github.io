@@ -29,8 +29,17 @@
         "url": "",
         "startDate": "2024-06-01",
         "endDate": "2024-09-30",
-        "summary": "Vue.js, Three.js",
+        "summary": "Vue.js, Three.js, Alibaba Cloud, Figma, SQL, Git",
         "highlights": ["Designed wireframes & prototypes with Figma, developed interactive web platform user interfaces using Vue.js, and collaborated with team members to showcase VR/XR features on reuseable components.", "Integrated 3D model visualization into the web-end player using Three.js to ensure an immersive experience for wedding ceremonies held by users."]
+      },
+      {
+        "name": "Kanahato K.K.",
+        "position": "Software Engineer",
+        "url": "",
+        "startDate": "2024-04-15",
+        "endDate": "2024-09-30",
+        "summary": "React.js, Node.js, AWS Suite, Git",
+        "highlights": ["Ensured enterprise-level data security, high availability and efficient CRUD operations by utilizing a hybrid database structure using AWS S3 and DynamoDB for static assets and dynamic resources in multiple languages.", "Built efficient CI/CD pipelines with GitHub Action, AWS SES and AWS Lambda for automated tasks, build and deployment processes, decreasing average deployment workload by 75%.", "Optimized data architecture for scalable back-end APIs, secured user authentication and authorization control and modern UI/UX flow with animated Material Design components to create consistent user experience."]
       },
       {
         "name": "Lilith Games",
@@ -58,7 +67,7 @@
       },
       {
         "institution": "The University of Tokyo",
-        "location": "Japan",
+        "location": "Tokyo",
         "url": "https://www.u-tokyo.ac.jp/en/",
         "area": "Applied Economics",
         "studyType": "Master of Economics",
@@ -68,7 +77,7 @@
       },
       {
         "institution": "Hitotsubashi University",
-        "location": "Japan",
+        "location": "Tokyo",
         "url": "https://www.hit-u.ac.jp/eng/",
         "area": "Statistical Economics",
         "studyType": "Master of Economics",
@@ -78,7 +87,7 @@
       },
       {
         "institution": "East China University of Poli-Science & Law",
-        "location": "China",
+        "location": "Shanghai",
         "url": "https://www.ecupl.edu.cn/",
         "area": "Japanese Language",
         "studyType": "Bachelor of Arts",
@@ -90,10 +99,26 @@
     "projects": [
       {
         "name": "Travel Planning Web Application",
-        "summary": "Web Development, React.js, Node.js, MongoDB",
+        "summary": "React.js, Node.js, MongoDB",
         "highlights": ["Developed a full-stack social media web application on top of Google Maps API, where users can interact and collaborate on travel attractions and travel plans by combining features from various competitors in the industry.", "Devised web application architecture in form of a RESTful API and minimized the development efforts by reusing ReactJS components, NodeJS as a back-end system and a MongoDB database for NoSQL data models.", "Conducted integration tests on all feature components to eliminate bugs and unexpected behaviors during the development lifecycle and delivered a functional build using Git on Netlify."],
         "startDate": "2023-01-15",
         "endDate": "2023-04-23",
+        "url": ""
+      },
+      {
+        "name": "Collaborative Painting Application",
+        "summary": "C++, Socket Programming, Object-Oriented Design",
+        "highlights": ["Conceptualized a server-level database that allows clients to synchronize actions performed by others in the network, undo their actions, and save/load current painting work to local devices.", "Built server functionalities such as dataflow broadcasting, user reconnection, and action history log in an Agile style."],
+        "startDate": "2023-01-31",
+        "endDate": "2023-04-20",
+        "url": ""
+      },
+      {
+        "name": "Spelling Battle Game",
+        "summary": "Android SDK, Java, Material Design",
+        "highlights": ["Designed the high-level concepts of an Android game that allows users to develop word spelling skills with friends.", "Implemented object classes using Model-View-Control pattern to connect mobile clients with Firebase in real-time.", "Deployed a Java material design GUI and a data model for word cards with customized animation and an automated user authentication component that allows users to sign-up, login/out, and change credentials."],
+        "startDate": "2022-09-20",
+        "endDate": "2022-12-23",
         "url": ""
       }
     ],
