@@ -29,8 +29,8 @@
         "url": "",
         "startDate": "2024-06-01",
         "endDate": "2024-09-30",
-        "summary": "Designed wireframes & prototypes with Figma, developed interactive web platform user interfaces using Vue.js, and collaborated with team members to showcase VR/XR features on reuseable components; Integrated 3D model visualization into the web-end player using Three.js to ensure an immersive experience for wedding ceremonies held by users;",
-        "highlights": ["Full Stack Development", "Web Development", "Vue.js", "Three.js"]
+        "summary": "Vue.js, Three.js",
+        "highlights": ["Designed wireframes & prototypes with Figma, developed interactive web platform user interfaces using Vue.js, and collaborated with team members to showcase VR/XR features on reuseable components.", "Integrated 3D model visualization into the web-end player using Three.js to ensure an immersive experience for wedding ceremonies held by users."]
       },
       {
         "name": "Lilith Games",
@@ -38,8 +38,8 @@
         "url": "",
         "startDate": "2019-03-01",
         "endDate": "2019-08-31",
-        "summary": "Designed a new data model to estimate weights for players of various payment levels based on purchase preferences using Python Scikit-learn, increasing the accuracy of Facebook advertising on potential new players by 15%; Streamlined data pipelines when discovering the front-load effect on in-game purchase recommendation pop-ups by conducting an A/B test on more than 1M new users using Apache Hive-SQL; Created and maintained automated interactive Tableau dashboards as a analysis reporting tool for new feature updates and in-game events to ensure accurate and thorough data collection on a daily basis;",
-        "highlights": ["Data Analysis", "Python", "SQL"]
+        "summary": "Python, SQL",
+        "highlights": ["Designed a new data model to estimate weights for players of various payment levels based on purchase preferences using Python Scikit-learn, increasing the accuracy of Facebook advertising on potential new players by 15%.", "Streamlined data pipelines when discovering the front-load effect on in-game purchase recommendation pop-ups by conducting an A/B test on more than 1M new users using Apache Hive-SQL.", "Created and maintained automated interactive Tableau dashboards as a analysis reporting tool for new feature updates and in-game events to ensure accurate and thorough data collection on a daily basis."]
       }
     ],
     "education": [
@@ -53,10 +53,7 @@
         "endDate": "2024-12-31",
         "score": "10.0",
         "courses": [
-          "Web Development",
-          "Mobile Application Development",
-          "Computer Graphics",
-          "Interpreters"
+          "Courses: Web Development, Mobile Application Development, Computer Graphics, Interpreters"
         ]
       },
       {
@@ -93,8 +90,8 @@
     "projects": [
       {
         "name": "Travel Planning Web Application",
-        "summary": "Developed a full-stack social media web application on top of Google Maps API, where users can interact and collaborate on travel attractions and travel plans by combining features from various competitors in the industry; Devised web application architecture in form of a RESTful API and minimized the development efforts by reusing ReactJS components, NodeJS as a back-end system and a MongoDB database for NoSQL data models; Conducted integration tests on all feature components to eliminate bugs and unexpected behaviors during the development lifecycle and delivered a functional build using Git on Netlify;",
-        "highlights": ["Web Development", "React.js", "Node.js", "MongoDB"],
+        "summary": "Web Development, React.js, Node.js, MongoDB",
+        "highlights": ["Developed a full-stack social media web application on top of Google Maps API, where users can interact and collaborate on travel attractions and travel plans by combining features from various competitors in the industry.", "Devised web application architecture in form of a RESTful API and minimized the development efforts by reusing ReactJS components, NodeJS as a back-end system and a MongoDB database for NoSQL data models.", "Conducted integration tests on all feature components to eliminate bugs and unexpected behaviors during the development lifecycle and delivered a functional build using Git on Netlify."],
         "startDate": "2023-01-15",
         "endDate": "2023-04-23",
         "url": ""
@@ -122,13 +119,6 @@
     ],
     "certificates": [
       {
-        "name": "Statistics & Data Science",
-        "date": "2020-02-01",
-        "issuer": "edX",
-        "url": "https://credentials.edx.org/credentials/10cce9038a9a4a19a8fdf74f6a402d6e/",
-        "icon": "fa-solid fa-clipboard-check"
-      },
-      {
         "name": "Deep Learning",
         "date": "2020-02-01",
         "issuer": "Coursera",
@@ -140,6 +130,13 @@
         "date": "2019-01-31",
         "issuer": "Coursera",
         "url": "https://www.coursera.org/account/accomplishments/verify/RY4Z8AEHSB4F",
+        "icon": "fa-solid fa-clipboard-check"
+      },
+      {
+        "name": "Statistics & Data Science",
+        "date": "2020-02-01",
+        "issuer": "edX",
+        "url": "https://credentials.edx.org/credentials/10cce9038a9a4a19a8fdf74f6a402d6e/",
         "icon": "fa-solid fa-clipboard-check"
       }
     ],
@@ -154,13 +151,13 @@
         "title": "Tuition Waiver",
         "date": "2017-06-15",
         "awarder": "The University of Tokyo",
-        "summary": "Tuition waiver due to distinguished academic achievement, 2017 - 2018."
+        "summary": "For distinguished academic achievement, 2017 - 2018."
       },
       {
         "title": "Tuition Waiver",
         "date": "2015-06-15",
         "awarder": "Hitotsubashi University",
-        "summary": "Tuition waiver due to distinguished academic achievement, 2015 - 2016."
+        "summary": "For distinguished academic achievement, 2015 - 2016."
       },
       {
         "title": "Award of Distinguished Undergraduate Thesis",
@@ -194,6 +191,11 @@
       }
     ],
     "references": [
+      {
+        "name": "Professor Zehua Shi",
+        "icon": "fa-brands fa-google-scholar",
+        "reference": "I am an assistant professor at Beijing University of Chinese Medicine. Jiazhe Chen is one of the most outstanding fellow students I have ever seen during my Ph.D. study at The University of Tokyo. I would like to recommend Jiazhe Chen to his future supervisors and colleagues."
+      },
       {
         "name": "Professor Zehua Shi",
         "icon": "fa-brands fa-google-scholar",
