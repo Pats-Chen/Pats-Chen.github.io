@@ -234,7 +234,7 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
+  - _pages/jiazhe.md
   - _pages/publications.md
   - purgecss.config.js
   - README.md

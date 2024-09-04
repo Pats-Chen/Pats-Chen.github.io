@@ -100,41 +100,47 @@
     "skills": [
       {
         "name": "Python",
-        "level": "Proficient",
+        "level": "Experienced",
         "icon": "fa-solid fa-hashtag",
         "keywords": ["Data Analysis", "Machine Learning", "Socket Programming"]
       },
       {
         "name": "JavaScript",
-        "level": "Proficient",
+        "level": "Experienced",
         "icon": "fa-solid fa-hashtag",
         "keywords": ["React.js", "Vue.js", "Three.js"]
       },
       {
         "name": "C++",
-        "level": "Proficient",
+        "level": "Effective",
         "icon": "fa-solid fa-hashtag",
-        "keywords": ["Computer Graphics"]
+        "keywords": ["OpenGL"]
+      },
+      {
+        "name": "Java",
+        "level": "Effective",
+        "icon": "fa-solid fa-hashtag",
+        "keywords": ["Android SDK"]
       }
     ],
     "certificates": [
       {
         "name": "Statistics & Data Science",
-        "date": "2021-08-31",
+        "date": "",
         "issuer": "edX",
         "url": "https://credentials.edx.org/credentials/10cce9038a9a4a19a8fdf74f6a402d6e/",
         "icon": "fa-solid fa-clipboard-check"
       },
       {
         "name": "Deep Learning",
-        "date": "2020-02-01",
+        "date": "",
         "issuer": "Coursera",
         "url": "https://www.coursera.org/account/accomplishments/specialization/9NHNMZ9BYGJ8",
         "icon": "fa-solid fa-clipboard-check"
       },
       {
         "name": "Machine Learning",
-        "date": "2019-01-31",
+        "date": "",
         "issuer": "Coursera",
         "url": "https://www.coursera.org/account/accomplishments/verify/RY4Z8AEHSB4F",
         "icon": "fa-solid fa-clipboard-check"
@@ -187,21 +193,10 @@
       {
         "name": "Tennis",
         "icon": "fa-solid fa-tag",
-        "keywords": ["Forehand", "Serve"]
+        "keywords": []
       }
     ],
-    "references": [
-      {
-        "name": "Professor Zehua Shi",
-        "icon": "fa-brands fa-google-scholar",
-        "reference": "I am an assistant professor at Beijing University of Chinese Medicine. Jiazhe Chen is one of the most outstanding fellow students I have ever seen during my Ph.D. study at The University of Tokyo. I would like to recommend Jiazhe Chen to his future supervisors and colleagues."
-      },
-      {
-        "name": "Professor Zehua Shi",
-        "icon": "fa-brands fa-google-scholar",
-        "reference": "I am an assistant professor at Beijing University of Chinese Medicine. Jiazhe Chen is one of the most outstanding fellow students I have ever seen during my Ph.D. study at The University of Tokyo. I would like to recommend Jiazhe Chen to his future supervisors and colleagues."
-      }
-    ],
+    "references": [],
     "publications": [],
     "volunteer": []
   }
