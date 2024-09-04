@@ -6,7 +6,7 @@ subtitle: Junior Software Engineer
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Northeastern University</p>
