@@ -1,38 +1,38 @@
 {
-  "basics": {
-    "name": "Jiazhe Chen",
-    "label": "Software Engineer",
-    "image": "",
-    "email": "chen.jiazhe@northeastern.edu",
-    "phone": "617+816+2717",
-    "url": "https://github.com/Pats-Chen",
-    "summary": "A software engineer from Northeastern University, majoring in Computer Science.",
-    "location": {
-      "address": "360 Huntington Ave",
-      "postalCode": "MA 02115",
-      "city": "Boston",
-      "countryCode": "US",
-      "region": "Massachusetts"
+    "basics": {
+      "name": "Jiazhe Chen",
+      "label": "Software Engineer",
+      "image": "",
+      "email": "chen.jiazhe@northeastern.edu",
+      "phone": "617+816+2717",
+      "url": "https://github.com/Pats-Chen",
+      "summary": "A software engineer from Northeastern University, majoring in Computer Science.",
+      "location": {
+        "address": "360 Huntington Ave",
+        "postalCode": "MA 02115",
+        "city": "Boston",
+        "countryCode": "US",
+        "region": "Massachusetts"
+      },
+      "profiles": [
+        {
+          "network": "Linkedin",
+          "username": "Jiazhe Chen",
+          "url": "https://www.linkedin.com/in/jiazhe-chen"
+        }
+      ]
     },
-    "profiles": [
+    "work": [
       {
-        "network": "Linkedin",
-        "username": "Jiazhe Chen",
-        "url": "https://www.linkedin.com/in/jiazhe-chen"
-      }
-    ]
-  },
-  "work": [
-    {
-      "name": "Seelove Technology",
-      "position": "Software Engineer Intern",
-      "url": "",
-      "startDate": "2024-06-01",
-      "endDate": "2024-09-30",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Web Development"]
-    },
-    {
+        "name": "Seelove Technology",
+        "position": "Software Engineer Intern",
+        "url": "",
+        "startDate": "2024-06-01",
+        "endDate": "2024-09-30",
+        "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+        "highlights": ["Web Development"]
+      },
+      {
         "name": "Lilith Games",
         "position": "Data Analyst Intern",
         "url": "",
@@ -41,32 +41,39 @@
         "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
         "highlights": ["Data Analysis"]
       }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "Northeastern University",
-      "location": "Boston",
-      "url": "https://www.northeastern.edu/",
-      "area": "Computer Science",
-      "studyType": "Master",
-      "startDate": "2021-09-01",
-      "endDate": "2024-12-31",
-      "score": "4.0",
-      "courses": ["Web Development", "Mobile Application Development", "Computer Graphics"]
-    },
-    {
+    ],
+    "volunteer": [
+      {
+        "organization": "People's Climate March",
+        "location": "Zurich, Switzerland",
+        "position": "Lead Organizer",
+        "url": "https://example.com",
+        "startDate": "2014-04-01",
+        "endDate": "2015-07-01",
+        "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+        "highlights": [
+          "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.",
+          "Men of the year 2014 by Time magazine"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "Northeastern University",
+        "location": "Boston",
+        "url": "https://www.northeastern.edu/",
+        "area": "Computer Science",
+        "studyType": "Master",
+        "startDate": "2021-09-01",
+        "endDate": "2024-12-31",
+        "score": "4.0",
+        "courses": [
+          "Web Development",
+          "Mobile Application Development",
+          "Computer Graphics"
+        ]
+      },
+      {
         "institution": "The University of Tokyo",
         "location": "Japan",
         "url": "https://www.u-tokyo.ac.jp/en/",
@@ -75,8 +82,8 @@
         "startDate": "2017-04-01",
         "endDate": "2019-03-31",
         "score": "4.0"
-    },
-    {
+      },
+      {
         "institution": "Hitotsubashi University",
         "location": "Japan",
         "url": "https://www.hit-u.ac.jp/eng/",
@@ -85,8 +92,8 @@
         "startDate": "2015-04-01",
         "endDate": "2017-03-31",
         "score": "4.0"
-    },
-    {
+      },
+      {
         "institution": "East China University of Poli Science & Law",
         "location": "China",
         "url": "https://www.ecupl.edu.cn/",
@@ -95,99 +102,98 @@
         "startDate": "2010-09-01",
         "endDate": "2014-07-31",
         "score": "4.0"
-    }
-  ],
-  "awards": [
-    {
-      "title": "Dean's Scholarship",
-      "date": "2021-04-15",
-      "awarder": "Dean's Scholarship",
-      "summary": "For outstanding academic performance"
-    },
-    {
+      }
+    ],
+    "awards": [
+      {
         "title": "Dean's Scholarship",
         "date": "2021-04-15",
         "awarder": "Dean's Scholarship",
         "summary": "For outstanding academic performance"
-    },
-    {
+      },
+      {
         "title": "Dean's Scholarship",
         "date": "2021-04-15",
         "awarder": "Dean's Scholarship",
         "summary": "For outstanding academic performance"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2019-01-31",
-      "issuer": "Coursera",
-      "url": "https://www.coursera.org/account/accomplishments/verify/RY4Z8AEHSB4F",
-      "icon": "fa-solid fa-clipboard-check"
-    },
-    {
-      "name": "Deep Learning Specialization",
-      "date": "2020-02-01",
-      "issuer": "Coursera",
-      "url": "https://www.coursera.org/account/accomplishments/specialization/9NHNMZ9BYGJ8",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    },
-    {
-      "language": "Japanese",
-      "fluency": "Fluent",
-      "icon": ""
-    },
-    {
-      "language": "Chinese",
-      "fluency": "Native speaker",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Tennis",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Forehand",
-        "Serve"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor Zehua Shi",
-      "icon": "fa-brands fa-google-scholar",
-      "reference": "I am an assistant professor at Beijing University of Chinese Medicine. I would like to recommend Jiazhe Chen to his future supervisors and colleagues. Jiazhe Chen is one of the most outstanding fellow students I have ever seen during my Ph.D. study at The University of Tokyo. We often discussed the course contents regarding economics, econometrics, and data science. He always has a variety of excellent ideas. I was often inspired by him when I conceived my doctoral dissertation on teacher effects in education economics. Moreover, he has achieved a series of excellent grades in many courses during his study as a master's degree student at UTokyo. Not only does he has brilliant insights in terms of lectures on campus, but he also endeavors to master knowledge from online courses. He obtained a MicroMasters credential in statistics and data science from MITx. In addition, I noticed that he participated in data science internships during summer breaks from UTokyo Alumni System. In short, I strongly recommend Jiazhe for any position related to statistics, econometrics, and data science."
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
-}
+      },
+      {
+        "title": "Dean's Scholarship",
+        "date": "2021-04-15",
+        "awarder": "Dean's Scholarship",
+        "summary": "For outstanding academic performance"
+      }
+    ],
+    "certificates": [
+      {
+        "name": "Machine Learning",
+        "date": "2019-01-31",
+        "issuer": "Coursera",
+        "url": "https://www.coursera.org/account/accomplishments/verify/RY4Z8AEHSB4F",
+        "icon": "fa-solid fa-clipboard-check"
+      },
+      {
+        "name": "Deep Learning",
+        "date": "2020-02-01",
+        "issuer": "Coursera",
+        "url": "https://www.coursera.org/account/accomplishments/specialization/9NHNMZ9BYGJ8",
+        "icon": "fa-solid fa-clipboard-check"
+      }
+    ],
+    "publications": [],
+    "skills": [
+      {
+        "name": "Physics",
+        "level": "Master",
+        "icon": "fa-solid fa-hashtag",
+        "keywords": ["Quantum Mechanics", "Quantum Computing"]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Fluent",
+        "icon": ""
+      },
+      {
+        "language": "Japanese",
+        "fluency": "Fluent",
+        "icon": ""
+      },
+      {
+        "language": "Chinese",
+        "fluency": "Native speaker",
+        "icon": ""
+      }
+    ],
+    "interests": [
+      {
+        "name": "Tennis",
+        "icon": "fa-solid fa-tag",
+        "keywords": ["Forehand", "Serve"]
+      }
+    ],
+    "references": [
+      {
+        "name": "Professor Zehua Shi",
+        "icon": "fa-brands fa-google-scholar",
+        "reference": "I am an assistant professor at Beijing University of Chinese Medicine. I would like to recommend Jiazhe Chen to his future supervisors and colleagues. Jiazhe Chen is one of the most outstanding fellow students I have ever seen during my Ph.D. study at The University of Tokyo. We often discussed the course contents regarding economics, econometrics, and data science. He always has a variety of excellent ideas. I was often inspired by him when I conceived my doctoral dissertation on teacher effects in education economics. Moreover, he has achieved a series of excellent grades in many courses during his study as a master's degree student at UTokyo. Not only does he has brilliant insights in terms of lectures on campus, but he also endeavors to master knowledge from online courses. He obtained a MicroMasters credential in statistics and data science from MITx. In addition, I noticed that he participated in data science internships during summer breaks from UTokyo Alumni System. In short, I strongly recommend Jiazhe for any position related to statistics, econometrics, and data science."
+      },
+      {
+        "name": "Professor Zehua Shi",
+        "icon": "fa-brands fa-google-scholar",
+        "reference": "I am an assistant professor at Beijing University of Chinese Medicine. I would like to recommend Jiazhe Chen to his future supervisors and colleagues. Jiazhe Chen is one of the most outstanding fellow students I have ever seen during my Ph.D. study at The University of Tokyo. We often discussed the course contents regarding economics, econometrics, and data science. He always has a variety of excellent ideas. I was often inspired by him when I conceived my doctoral dissertation on teacher effects in education economics. Moreover, he has achieved a series of excellent grades in many courses during his study as a master's degree student at UTokyo. Not only does he has brilliant insights in terms of lectures on campus, but he also endeavors to master knowledge from online courses. He obtained a MicroMasters credential in statistics and data science from MITx. In addition, I noticed that he participated in data science internships during summer breaks from UTokyo Alumni System. In short, I strongly recommend Jiazhe for any position related to statistics, econometrics, and data science."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Quantum Computing",
+        "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
+        "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+        "startDate": "2018-01-01",
+        "endDate": "2018-01-01",
+        "url": "https://example.com"
+      }
+    ]
+  }
+  
