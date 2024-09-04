@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 4
 cv_pdf: JiazheChen.pdf
-description: This is my resume.
+description: Please check the PDF version of my resume on the right side.
 toc:
   sidebar: left
 ---
