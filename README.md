@@ -1,1 +1,1 @@
-## This personal website uses [al-folio](https://alshedivat.github.io/al-folio/) for template.
+## This website uses [al-folio](https://alshedivat.github.io/al-folio/) as the template.
