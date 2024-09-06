@@ -1,49 +1,34 @@
 ---
 layout: page
-title: Project 1
-description: A project with several images and code snippets
-img: assets/img/12.jpg
+title: Seelove Technology Web App
+description: A web application for Seelove Technology
+img: assets/img/project-1-image-0.jpeg
 importance: 1
 category: work
 related_publications: false
 ---
 
-This is my project!
+This is a web application for Seelove Technology.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project-1-image-1.jpg" title="Sample Image 1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can see them in the pictures! They're beautiful!
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can see them in the pictures! They're beautiful!
+    This is the sample image of the landing page.
 </div>
 
 {% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+```css
+.navigation-bar {
+  height: 64px;
+  width: 100%;
+  background: rgba(203, 77, 122, 0.27);
+  -webkit-backdrop-filter: blur(10px); /* glassmorphism */
+  backdrop-filter: blur(10px); /* glassmorphism */
+}
 ```
 
 {% endraw %}
