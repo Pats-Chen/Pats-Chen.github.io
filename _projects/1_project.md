@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Seelove Website
+title: Seelove Tech
 description: A Vue.js web application for Seelove Technology.
 img: assets/img/project-1-image-0.jpeg
 importance: 1

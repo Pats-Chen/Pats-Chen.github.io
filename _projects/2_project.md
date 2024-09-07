@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Kanahato Website
+title: Kanahato K.K.
 description: A React.js web application for Kanahato K.K..
 img: assets/img/project-2-image-0.jpeg
 importance: 1
