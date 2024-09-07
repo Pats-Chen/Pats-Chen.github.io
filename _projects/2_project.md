@@ -2,7 +2,7 @@
 layout: page
 title: Kanahato K.K.
 description: A React.js web application for Kanahato K.K..
-img: assets/img/project-2-image-0.jpeg
+img: assets/img/projects/p2_image0.jpeg
 importance: 1
 category: work
 giscus_comments: false
