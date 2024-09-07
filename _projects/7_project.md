@@ -3,7 +3,7 @@ layout: page
 title: Project 7
 description: A project with several images and code snippets
 img: assets/img/4.jpg
-importance: 1
+importance: 2
 category: work
 related_publications: false
 ---

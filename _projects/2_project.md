@@ -1,36 +1,22 @@
 ---
 layout: page
-title: Project 2
-description: A project with several images and code snippets
-img: assets/img/3.jpg
-importance: 2
+title: Kanahato Website
+description: A React.js web application for Kanahato K.K..
+img: assets/img/project-2-image-0.jpeg
+importance: 1
 category: work
 giscus_comments: false
 ---
 
-This is my project!
+This is a React.js web application for Kanahato K.K..
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can see them in the pictures! They're beautiful!
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can see them in the pictures! They're beautiful!
+    This is the sample screenshot of the landing page.
 </div>
 
 {% raw %}
