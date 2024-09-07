@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Seelove Technology Web App
-description: A web application for Seelove Technology
+title: Seelove Website
+description: A Vue.js web application for Seelove Technology.
 img: assets/img/project-1-image-0.jpeg
 importance: 1
 category: work
 related_publications: false
 ---
 
-This is a web application for Seelove Technology.
+This is a Vue.js web application for Seelove Technology.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -16,7 +16,7 @@ This is a web application for Seelove Technology.
     </div>
 </div>
 <div class="caption">
-    This is the sample image of the landing page.
+    This is the sample screenshot of the landing page.
 </div>
 
 {% raw %}
