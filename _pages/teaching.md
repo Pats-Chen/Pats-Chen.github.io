@@ -7,4 +7,4 @@ nav: false
 nav_order:
 ---
 
-For now, this page is assumed to be a static description of my courses.
+[![CS 5700 Fundamentals of Computer Networks by Alden Jackson, Spring 2023.](https://4700.network/docs/schedule/)](https://4700.network/docs/schedule/)
