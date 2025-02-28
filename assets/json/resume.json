@@ -65,7 +65,7 @@
   "education": [
     {
       "institution": "Northeastern University",
-      "location": "Boston",
+      "location": "Boston, USA",
       "url": "https://www.northeastern.edu/",
       "area": "Computer Science",
       "studyType": "Master of Science",
@@ -76,7 +76,7 @@
     },
     {
       "institution": "The University of Tokyo",
-      "location": "Tokyo",
+      "location": "Tokyo, JPN",
       "url": "https://www.u-tokyo.ac.jp/en/",
       "area": "Applied Economics",
       "studyType": "Master of Economics",
@@ -86,7 +86,7 @@
     },
     {
       "institution": "Hitotsubashi University",
-      "location": "Tokyo",
+      "location": "Tokyo, JPN",
       "url": "https://www.hit-u.ac.jp/eng/",
       "area": "Statistical Economics",
       "studyType": "Master of Economics",
@@ -96,7 +96,7 @@
     },
     {
       "institution": "East China University of Poli-Science & Law",
-      "location": "Shanghai",
+      "location": "Shanghai, CHN",
       "url": "https://www.ecupl.edu.cn/",
       "area": "Japanese Language",
       "studyType": "Bachelor of Arts",
