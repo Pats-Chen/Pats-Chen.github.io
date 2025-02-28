@@ -14,7 +14,7 @@ git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec
 
 {% endhighlight %}
 
-Note that the path should be where Git is installed on your device. After that, the error message listed below should gone.  
+Note that the path should be where Git is installed on your device. After that, the error message listed below should be resolved.  
 
 {% highlight Bash linenos %}
 
@@ -36,7 +36,7 @@ Error: connect EACCES /run/user/1000/vscode-git-431ee25d9d.sock
 }
 /mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe erase: 1: /mnt/c/Program Files/Git/mingw64/libexec/git-core/git-credential-manager.exe: not found
 remote: Repository not found.
-fatal: Authentication failed for 'github.com/Spring23FSE/finalproject-squirrel.git'
+fatal: Authentication failed for 'github.com/YourOrganization/YourProject.git'
 
 {% endhighlight %}
 
