@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://pats-chen.github.io//feed.xml" rel="self" type="application/atom+xml"/><link href="https://pats-chen.github.io//" rel="alternate" type="text/html" hreflang="en"/><updated>2025-03-23T18:33:27+00:00</updated><id>https://pats-chen.github.io//feed.xml</id><title type="html">Jiazhe Chen</title><subtitle>Welcome to Jiazhe Chen&apos;s personal website! </subtitle><entry><title type="html">How to Check Port Used</title><link href="https://pats-chen.github.io//blog/2025/how-to-check-port-used/" rel="alternate" type="text/html" title="How to Check Port Used"/><published>2025-03-16T21:52:00+00:00</published><updated>2025-03-16T21:52:00+00:00</updated><id>https://pats-chen.github.io//blog/2025/how-to-check-port-used</id><content type="html" xml:base="https://pats-chen.github.io//blog/2025/how-to-check-port-used/"><![CDATA[<p>Start a Windows Terminal window and enter the following command:</p> <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://pats-chen.github.io//feed.xml" rel="self" type="application/atom+xml"/><link href="https://pats-chen.github.io//" rel="alternate" type="text/html" hreflang="en"/><updated>2025-08-28T19:18:27+00:00</updated><id>https://pats-chen.github.io//feed.xml</id><title type="html">Jiazhe Chen</title><subtitle>Welcome to Jiazhe Chen&apos;s personal website! </subtitle><entry><title type="html">Remove Secrets from Commit History</title><link href="https://pats-chen.github.io//blog/2025/remove-secrets-from-commit-history/" rel="alternate" type="text/html" title="Remove Secrets from Commit History"/><published>2025-08-28T14:00:00+00:00</published><updated>2025-08-28T14:00:00+00:00</updated><id>https://pats-chen.github.io//blog/2025/remove-secrets-from-commit-history</id><content type="html" xml:base="https://pats-chen.github.io//blog/2025/remove-secrets-from-commit-history/"><![CDATA[<p>Situation:</p> <p>There is hard-coded secret keys in commit history. The hard-coded string has been removed in files, but the history remains, so it is still exposed.</p> <p>Goal:</p> <p>Remove secret keys in commit history</p> <p>Steps:</p> <p>Use the following command to install pipx before installing history editing tool on a Macbook. This is used to isolate the environment used by the tool from global environment of the device.</p> <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+</pre></td><td class="code"><pre>brew <span class="nb">install </span>pipx
+</pre></td></tr></tbody></table></code></pre></figure> <p>After that, use the following command to install git-filter-repo. This is used to edit commit history.</p> <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+</pre></td><td class="code"><pre>pipx <span class="nb">install </span>git-filter-repo
+</pre></td></tr></tbody></table></code></pre></figure> <p>Copy a mirror of the current repo and then edit commit history from there. This is used to prevent contaminating the current working environment for other developers.</p> <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="code"><pre>git clone <span class="nt">--mirror</span> &lt;YOUR_REMOTE_URL&gt; repo-clean.git
+<span class="nb">cd </span>repo-clean.git
+</pre></td></tr></tbody></table></code></pre></figure> <p>Create a file named <code class="language-plaintext highlighter-rouge">replacements.txt</code> used to replace hard-coded secret keys in commit history. This file should look like the following block.</p> <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="code"><pre><span class="c"># literal example</span>
+literal:OLD_PLAIN_TOKEN_ABC123<span class="o">==&gt;</span><span class="k">***</span>REMOVED<span class="k">***</span>
+
+<span class="c"># regex example</span>
+regex:sk_live_[0-9A-Za-z]+<span class="o">==&gt;</span><span class="k">***</span>REMOVED<span class="k">***</span>        <span class="c"># Stripe</span>
+regex:ghp_[0-9A-Za-z]<span class="o">{</span>36,<span class="o">}==&gt;</span><span class="k">***</span>REMOVED<span class="k">***</span>        <span class="c"># GitHub PAT</span>
+regex:AIza[0-9A-Za-z_-]<span class="o">{</span>35<span class="o">}==&gt;</span><span class="k">***</span>REMOVED<span class="k">***</span>       <span class="c"># Google API Key</span>
+regex:sk-[A-Za-z0-9]<span class="o">{</span>48,<span class="o">}==&gt;</span><span class="k">***</span>REMOVED<span class="k">***</span>         <span class="c"># OpenAI New Format</span>
+</pre></td></tr></tbody></table></code></pre></figure> <p>Run the following command to replace secret keys in commit history.</p> <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+</pre></td><td class="code"><pre>git filter-repo <span class="nt">--replace-text</span> replacements.txt <span class="nt">--refs</span> refs/heads/&lt;YOUR_BRANCH_NAME&gt; <span class="nt">--force</span>
+</pre></td></tr></tbody></table></code></pre></figure> <p>Remove the mirror attribute of the git repo and push changes to a new branch.</p> <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="code"><pre><span class="c"># set mirror to false</span>
+git config remote.origin.mirror <span class="nb">false</span>
+<span class="c"># push it to a new branch</span>
+git push origin refs/heads/&lt;YOUR_BRANCH_NAME&gt;-clean:refs/heads/&lt;YOUR_BRANCH_NAME&gt;-clean
+</pre></td></tr></tbody></table></code></pre></figure> <p>Push the new branch to the remote origin. Resolve potential conflicts if there are any. Done!</p>]]></content><author><name></name></author><category term="computer-science"/><category term="git"/><summary type="html"><![CDATA[A post on methods to remove exposed secrets from commit history]]></summary></entry><entry><title type="html">How to Check Port Used</title><link href="https://pats-chen.github.io//blog/2025/how-to-check-port-used/" rel="alternate" type="text/html" title="How to Check Port Used"/><published>2025-03-16T21:52:00+00:00</published><updated>2025-03-16T21:52:00+00:00</updated><id>https://pats-chen.github.io//blog/2025/how-to-check-port-used</id><content type="html" xml:base="https://pats-chen.github.io//blog/2025/how-to-check-port-used/"><![CDATA[<p>Start a Windows Terminal window and enter the following command:</p> <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
 </pre></td><td class="code"><pre>netstat <span class="nt">-ano</span> | findstr LISTENING
 </pre></td></tr></tbody></table></code></pre></figure> <p>This will use <code class="language-plaintext highlighter-rouge">netstat</code> to list all the ports that are currently in use. The output will be like this:</p> <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
 2
